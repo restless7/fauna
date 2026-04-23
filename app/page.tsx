@@ -86,7 +86,7 @@ function HeroSection() {
              <div className="absolute inset-x-4 inset-y-0 lg:inset-x-8 bg-white shadow-[0_30px_60px_rgba(0,0,0,0.04)] overflow-hidden relative">
                
                <Image 
-                 src="/images/FAUNA/Fauna_emerald_jewelry_202604081649.jpeg"
+                 src="/images/Fauna_emerald_jewelry_202604081649.jpeg"
                  alt="Fauna Emerald High Jewelry"
                  fill
                  className="object-cover scale-100 group-hover:scale-105 transition-transform duration-[20s] ease-out"
@@ -146,7 +146,7 @@ function ContrastSection() {
             initial={{ opacity: 0 }} animate={isInView ? { opacity: 1 } : {}} transition={{ duration: 1, delay: 0.6 }}
           >
             <div className="absolute inset-0 z-0">
-               <Image src="/images/FAUNA/Emerald_set_in_202604081640.jpeg" alt="Mass Production vs True Art" fill className="object-cover opacity-10 grayscale group-hover:grayscale-0 transition-all duration-1000" />
+               <Image src="/images/Emerald_set_in_202604081640.jpeg" alt="Mass Production vs True Art" fill className="object-cover opacity-10 grayscale group-hover:grayscale-0 transition-all duration-1000" />
             </div>
             <div className="relative z-10 p-12 md:p-16 h-full bg-white/90 backdrop-blur-sm">
               <span className="text-[10px] tracking-widest uppercase text-[#1F1F1F]/40 mb-6 block">01 / Lo Comercial</span>
@@ -165,7 +165,7 @@ function ContrastSection() {
             initial={{ opacity: 0 }} animate={isInView ? { opacity: 1 } : {}} transition={{ duration: 1, delay: 0.8 }}
           >
             <div className="absolute inset-0 z-0">
-               <Image src="/images/FAUNA/Emerald_and_gold_202604081651.jpeg" alt="The Fauna Standard" fill className="object-cover opacity-20 group-hover:opacity-30 transition-all duration-1000" />
+               <Image src="/images/Emerald_and_gold_202604081651.jpeg" alt="The Fauna Standard" fill className="object-cover opacity-20 group-hover:opacity-30 transition-all duration-1000" />
             </div>
             <div className="relative z-10 p-12 md:p-16 h-full">
               <span className="text-[10px] tracking-widest uppercase text-[#0A9B6B] mb-6 block drop-shadow-md">02 / El Estándar Fauna</span>
@@ -209,7 +209,7 @@ function FeaturesSection() {
     <section className="py-32 bg-[#FAF7F0] relative border-t border-[#1F1F1F]/5 overflow-hidden">
        {/* Background ambient logo watermark */}
        <div className="absolute -right-[15%] top-1/2 -translate-y-1/2 w-[600px] h-[600px] opacity-[0.03] pointer-events-none">
-          <Image src="/images/FAUNA/Fauna_logo_variations_202604081649.jpeg" alt="Fauna Watermark" fill className="object-contain" />
+          <Image src="/images/Fauna_logo_variations_202604081649.jpeg" alt="Fauna Watermark" fill className="object-contain" />
        </div>
 
        <div className="container mx-auto px-4 sm:px-8 lg:px-16 z-10 relative">
@@ -246,9 +246,9 @@ function FeaturesSection() {
 // -----------------------------------------------------
 function ShowcaseSection() {
   const products = [
-    { title: "La Monstera", specs: "Corte Gota 1.2ct • Oro Amarillo 18k", img: "/images/FAUNA/Emerald_rings_and_202604081640.jpeg", class: "col-span-1 md:col-span-2 row-span-2 aspect-[4/5] md:aspect-auto" },
-    { title: "L'Orchidée", specs: "Corte Redondo 0.8ct • Oro Amarillo 18k", img: "/images/FAUNA/Emerald_jewelry_on_202604081650.jpeg", class: "col-span-1 aspect-square" },
-    { title: "Aretes Selva", specs: "Gotas Gemelas 1.5ct tw.", img: "/images/FAUNA/Emerald_ear_climber_202604081650.jpeg", class: "col-span-1 aspect-square" },
+    { title: "La Monstera", specs: "Corte Gota 1.2ct • Oro Amarillo 18k", img: "/images/Emerald_rings_and_202604081640.jpeg", class: "col-span-1 md:col-span-2 row-span-2 aspect-[4/5] md:aspect-auto" },
+    { title: "L'Orchidée", specs: "Corte Redondo 0.8ct • Oro Amarillo 18k", img: "/images/Emerald_jewelry_on_202604081650.jpeg", class: "col-span-1 aspect-square" },
+    { title: "Aretes Selva", specs: "Gotas Gemelas 1.5ct tw.", img: "/images/Emerald_ear_climber_202604081650.jpeg", class: "col-span-1 aspect-square" },
   ];
 
   return (
@@ -316,7 +316,7 @@ function TrustSection() {
     <section ref={ref} className="py-32 bg-[#FAF7F0] relative overflow-hidden">
        {/* Ambient Packaging Shot */}
        <div className="absolute inset-0 z-0">
-          <Image src="/images/FAUNA/Jewelry_packaging_design_202604081650.jpeg" alt="Fauna Packaging" fill className="object-cover opacity-[0.07] grayscale" />
+          <Image src="/images/Jewelry_packaging_design_202604081650.jpeg" alt="Fauna Packaging" fill className="object-cover opacity-[0.07] grayscale" />
           <div className="absolute inset-0 bg-[#FAF7F0]/80 backdrop-blur-sm" />
        </div>
 
@@ -370,7 +370,7 @@ function FinalCTASection() {
       
       {/* Background visual */}
       <div className="absolute inset-0 opacity-20 pointer-events-none mix-blend-overlay">
-         <Image src="/images/FAUNA/Emerald_set_in_202604081640.jpeg" alt="Fauna Emerald Background" fill className="object-cover" />
+         <Image src="/images/Emerald_set_in_202604081640.jpeg" alt="Fauna Emerald Background" fill className="object-cover" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10 text-center max-w-2xl">
@@ -380,7 +380,7 @@ function FinalCTASection() {
            transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
         >
           <div className="flex justify-center mb-12">
-             <Image src="/images/FAUNA/Fauna_logo_with_202604081651.jpeg" alt="Fauna Signature Logo" width={80} height={80} className="opacity-80 mix-blend-screen" />
+             <Image src="/images/Fauna_logo_with_202604081651.jpeg" alt="Fauna Signature Logo" width={80} height={80} className="opacity-80 mix-blend-screen" />
           </div>
 
           <span className="inline-block text-[#D4AF37] text-[10px] font-semibold tracking-[0.3em] uppercase mb-8">
